@@ -83,3 +83,21 @@ body {
     padding: 22px 117px 19px;
     border-radius: 30px;
 }
+
+.new{
+    padding: 90px 0 150px;
+}
+
+.new-title{
+    margin: 0 0 50px;
+    text-transform: uppercase;
+    text-align: center;
+    color:#717171;
+    font-size: 32px;
+    line-height: 39px;
+    font-weight: 700;
+}
+
+.new-info{
+    display: flex;
+}
