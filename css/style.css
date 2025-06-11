@@ -54,7 +54,7 @@ body {
 }
 
 .headline {
-    border-color: #F5F5F7;
+    background-color: #F5F5F7;
     text-align: center;
     padding: 70px 0 40px;
 }
@@ -88,7 +88,8 @@ body {
     padding: 90px 0 150px;
 }
 
-.new-title{
+.new-title,
+.color-title{
     margin: 0 0 50px;
     text-transform: uppercase;
     text-align: center;
@@ -100,4 +101,45 @@ body {
 
 .new-info{
     display: flex;
+    align-items: center;
+}
+
+.new-text p{
+    max-width: 560px;
+    margin: 0 0 30px;
+}
+
+.new-text b{
+    display: block;
+    max-width: 560px;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.images-new{
+    margin-left: 190px;
+}
+
+.color{
+    padding-bottom: 150px;
+}
+
+.color-list{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.color-item img{
+    margin-bottom: 20px;
+}
+
+.color-item h3{
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0 0 10px;
+}
+
+.color-item p{
+    margin: 0;
 }
